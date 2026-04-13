@@ -1,0 +1,14 @@
+{
+  "name": "npm-demo-v1-oldest",
+  "version": "1.0.0",
+  "description": "Orca demo v1 - oldest vulnerable versions",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express":       "4.16.0",
+    "axios":         "0.19.0",
+    "cookie-parser": "1.4.3",
+    "lodash":        "4.17.15",
+    "node-fetch":    "2.6.0"
+  }
+}

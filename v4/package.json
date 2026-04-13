@@ -1,0 +1,14 @@
+{
+  "name": "npm-demo-v4-newer",
+  "version": "1.0.0",
+  "description": "Orca demo v4 - newer versions",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express":       "4.18.2",
+    "axios":         "0.27.2",
+    "cookie-parser": "1.4.6",
+    "lodash":        "4.17.21",
+    "node-fetch":    "2.6.7"
+  }
+}

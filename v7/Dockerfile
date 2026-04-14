@@ -1,0 +1,8 @@
+FROM node:18-alpine
+WORKDIR /app
+COPY package.json ./
+RUN npm install --no-audit
+RUN npm install cookie-parser@1.4.6 --save --no-audit
+COPY server.js ./
+EXPOSE 3000
+CMD ["node", "server.js"]

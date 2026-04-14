@@ -1,0 +1,14 @@
+{
+  "name": "npm-demo-v6-cookie-old",
+  "version": "1.0.0",
+  "description": "Orca demo v6 - explicit cookie-parser 1.4.3 install",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express":       "4.17.1",
+    "axios":         "0.21.1",
+    "cookie-parser": "1.4.3",
+    "lodash":        "4.17.19",
+    "node-fetch":    "2.6.1"
+  }
+}
